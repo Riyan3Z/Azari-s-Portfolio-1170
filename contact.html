@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" >
+  <link rel="stylesheet" href="style.css" >
+ 
+
+  <title>Zari's portfolio</title>
+</head>
+<body class="body-cont">
+  <header>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="index.html">A.R.E</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About-me.html">About</a></li>
+          <li><a href="Project.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <button id="themeSwitcher">Change Theme</button>
+          <li class="mode-toggle">
+            <input type="checkbox" id="modeSwitch" class="mode-switch" onclick="toggleMode()">
+            <label for="modeSwitch" class="mode-label">
+            
+            </label>
+        </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+    <main id="in-touch">
+
+        <section class="contact" id="connect">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="info">
+                        <img src="Images/me Background Removed.png" height="470px "="Contact Us" id="contact-img">
+                    </div>
+
+                    <div class="info">
+                        <div id="form-container">
+                            <h2>Get In Touch</h2>
+                            <form id="contact-form">
+                             <div class="form-group">
+                                    <input type="text" id="firstName" placeholder="First Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="lastName" placeholder="Last Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="email" placeholder="Email Address">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" id="phone" placeholder="Phone No.(111)111-1111">
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="message" rows="6" placeholder="Message..."></textarea>
+                                </div>
+                                <button type="submit" id="submit-btn"><span>Send</span></button>
+                            </form>
+                            <div id="status"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+       
+        <ul class="contact-info">
+            <li><img src="Images/images.png" height="20" alt="Email Icon"> Email: <a href="mailto:azarieaston@gmail.com">azarieaston@gmail.com</a></li>
+            <li><img src="Images/linkedin.png" height="20" alt="LinkedIn Icon"> LinkedIn: <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank">Your LinkedIn Profile</a></li>
+            <li><img src="Images/instagram.jpeg" height="20" alt="Instagram Icon"> Instagram: <a href="https://www.instagram.com/xari_bda/" target="_blank">@yourinstagramhandle</a></li>
+            <li><img src="Images/phone .png" height="20" alt="Phone Icon"> Phone: 9020209876</li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>
